@@ -1,15 +1,12 @@
 package internal
 
 import (
-	"github.com/noelyahan/mergi"
 	"image"
 	"fmt"
-	"github.com/noelyahan/mergi/io"
 	"runtime"
 	"path/filepath"
+	"github.com/noelyahan/mergitrans/internal/io"
 )
-
-
 
 func GetSlideBar() []image.Image {
 	return getFrames("slide_bar", 1, 36)
@@ -49,10 +46,8 @@ func getFrames(name string, from, to int) []image.Image {
 	frames := make([]image.Image, 0)
 	for i := from; i <= to; i++ {
 		p := fmt.Sprintf("%s/frame%d.png", path, int(i))
-		img, _ := mergi.Import(io.NewFileImporter(p))
+		img, _ := io.NewFileImporter(p).Import()
 		frames = append(frames, img)
 	}
 	return frames
 }
-
-

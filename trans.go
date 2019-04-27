@@ -8,9 +8,9 @@ import (
 
 // bonus video frames
 var Videos = struct {
-	VideoPoppyField []image.Image
-	VideoBird []image.Image
-	VideoClouds []image.Image
+	PoppyField []image.Image
+	Bird []image.Image
+	Clouds []image.Image
 }{videos.PoppyField, videos.Bird, videos.Clouds}
 
 // Support transitions
