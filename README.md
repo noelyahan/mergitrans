@@ -4,8 +4,8 @@ The library provides free and opensource alpha matte transitions frames, special
 
 []()                   | []() | []() | []()
 -----------------------|----------------------|----------------------|----------------------
-![dstImage](doc/slide_bar.gif)<br/><center>SlideBar</center> | ![dstImage](doc/ink_1.gif)<br/><center>Ink1</center> | ![dstImage](doc/ink_2.gif)<center>Ink2</center> | ![dstImage](doc/ink_3.gif)<br/><center>Ink3</center>
-![dstImage](doc/scale_up_rect.gif)<br/><center>ScaleUpFastRect</center> | ![dstImage](doc/scale_down_rect.gif)<br/><center>ScaleDownFastRect</center> | ![dstImage](doc/scale_up_circle.gif)<center>ScaleUpFastCircle</center> | ![dstImage](doc/scale_down_circle.gif)<br/><center>ScaleDownFastCircle</center>
+![dstImage](doc/SlideBar.gif)<br/><center>SlideBar</center> | ![dstImage](doc/Ink1.gif)<br/><center>Ink1</center> | ![dstImage](doc/Ink2.gif)<center>Ink2</center> | ![dstImage](doc/Ink3.gif)<br/><center>Ink3</center>
+![dstImage](doc/ScaleUpFastRect.gif)<br/><center>ScaleUpFastRect</center> | ![dstImage](doc/ScaleDownFastRect.gif)<br/><center>ScaleDownFastRect</center> | ![dstImage](doc/ScaleUpFastCircle.gif)<center>ScaleUpFastCircle</center> | ![dstImage](doc/ScaleDownFastCircle.gif)<br/><center>ScaleDownFastCircle</center>
 
 
 ## 💻 Contribute
