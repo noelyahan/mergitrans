@@ -4,7 +4,7 @@ The library provides free and opensource alpha matte transitions frames, special
 
 []()                   | []() | []() | []()
 -----------------------|----------------------|----------------------|----------------------
-![dstImage](doc/SlideBar.gif)<br/><center>SlideBar</center> | ![dstImage](doc/Ink1.gif)<br/><center>Ink1</center> | ![dstImage](doc/Ink2.gif)<center>Ink2</center> | ![dstImage](doc/Ink3.gif)<br/><center>Ink3</center>
+![dstImage](doc/SlideBar.gif)<br/><center>SlideBar</center> | ![dstImage](doc/Ink1.gif)<br/><center>Ink1</center> | ![dstImage](doc/Ink2.gif)<br/><center>Ink2</center> | ![dstImage](doc/Ink3.gif)<br/><center>Ink3</center>
 ![dstImage](doc/ScaleUpFastRect.gif)<br/><center>ScaleUpFastRect</center> | ![dstImage](doc/ScaleDownFastRect.gif)<br/><center>ScaleDownFastRect</center> | ![dstImage](doc/ScaleUpFastCircle.gif)<center>ScaleUpFastCircle</center> | ![dstImage](doc/ScaleDownFastCircle.gif)<br/><center>ScaleDownFastCircle</center>
 
 
