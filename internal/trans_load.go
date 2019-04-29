@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 	"path/filepath"
-	"github.com/noelyahan/mergitrans/internal/io"
+	"github.com/noelyahan/eximp"
 )
 
 // GetFrames used to load transition frames
@@ -15,7 +15,7 @@ func GetFrames(name string, from, to int) []image.Image {
 	frames := make([]image.Image, 0)
 	for i := from; i <= to; i++ {
 		p := fmt.Sprintf("%s/frame%d.png", path, int(i))
-		img, _ := io.NewFileImporter(p).Import()
+		img, _ := eximp.NewFileImporter(p).Import()
 		frames = append(frames, img)
 	}
 	return frames
