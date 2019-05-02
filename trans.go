@@ -8,15 +8,15 @@ import (
 
 // bonus video frames
 var Videos = struct {
-	PoppyField []image.Image
-	Bird       []image.Image
-	Clouds     []image.Image
+	PoppyField func() []image.Image
+	Bird       func() []image.Image
+	Clouds     func() []image.Image
 }{
 	videos.GetFrames("1", 1, 150),
 	videos.GetFrames("2", 1, 150),
 	videos.GetFrames("3", 1, 150)}
 
-// Support transitions
+// support transitions
 var SlideBar = internal.GetFrames("slide_bar", 1, 36)
 var Ink1 = internal.GetFrames("transition_ink", 1, 60)
 var Ink2 = internal.GetFrames("transition_ink", 61, 98)
