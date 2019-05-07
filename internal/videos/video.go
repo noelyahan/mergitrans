@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 	"path/filepath"
-	"github.com/noelyahan/eximp"
+	"github.com/noelyahan/impexp"
 )
 
 // GetFrames is used to load video frames
@@ -17,7 +17,7 @@ func GetFrames(name string, from, to int) func() []image.Image {
 		p := ""
 		for i := from; i <= to; i++ {
 			p = fmt.Sprintf("%s/frame%d.jpg", path, int(i))
-			img, _ := eximp.NewFileImporter(p).Import()
+			img, _ := impexp.NewFileImporter(p).Import()
 			frames = append(frames, img)
 		}
 		return frames

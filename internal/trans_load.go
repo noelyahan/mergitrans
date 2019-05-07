@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 	"path/filepath"
-	"github.com/noelyahan/eximp"
+	"github.com/noelyahan/impexp"
 )
 
 // GetFrames used to load transition frames
@@ -19,7 +19,7 @@ func GetFrames(name string, from, to int) func() []image.Image {
 		for i := from; i <= to; i++ {
 			p = fmt.Sprintf("%s/frame%d.png", path, int(i))
 			//fmt.Print(p)
-			img, _ = eximp.NewFileImporter(p).Import()
+			img, _ = impexp.NewFileImporter(p).Import()
 			frames = append(frames, img)
 		}
 		return frames
